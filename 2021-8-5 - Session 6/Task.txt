@@ -1,0 +1,6 @@
+Name : Maha
+Age : 28
+Gender : Female
+Salary : 4000
+PhoneNumber : 0123456789
+Email : Maha@gmail.com
