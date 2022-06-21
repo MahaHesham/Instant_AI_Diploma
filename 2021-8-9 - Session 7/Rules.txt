@@ -1,0 +1,38 @@
+***Python Regular Expression Quick Guide***
+
+.        - Matches any character Except New Line "\n"                             
+^        - Matches the beginning of a line or a String                             
+$        - Matches the end of the line or a String                             
+\d       - Matches Digit (0-9)                             
+\D       - Matches Not a Digit (0-9)                             
+\w       - Matches Word Character only "lowercase, uppercase, digits, underscore" (a-z, A-Z, 0-9, _)                           
+\W       - Matches Not a Word Character                             
+\s       - Matches whitespace (space, tab, newline)                             
+\S       - Matches any non-whitespace character (space, tab, newline)                             
+\b       - Matches Word Boundary                             
+\B       - Matches Not a Word Boundary                             
+
+\.       - Matches only dots                                                                      
+[  ]     - Matches a single character in the listed set (Matches Characters in brackets)                             
+[^ ]     - Matches a single character not in the listed set (Matches Characters NOT in brackets)                               
+|        - Either Or
+( )      - Group 
+
+
+*Quantifiers :-*                             
+
+{*}      - Repeats a character zero or more times                             
+{+}      - Repeats a character one or more times                             
+{?}      - Repeats a character zero or one time                             
+{+?}     - Repeats a character one or more times (non-greedy)                             
+{*?}     - Repeats a character zero or more times (non-greedy)                                                           
+{3}      - Exact Number                             
+{3,4}    - Range of Numbers (Minimum, Maximum)                             
+[a-z0-9] - The set of characters can include a range                                                                           
+(        - Indicates where string extraction is to start                                                                       
+)        - Indicates where string extraction is to end                             
+
+
+*Sample Regexs :-*                             
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+                                                                                   
