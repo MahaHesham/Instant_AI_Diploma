@@ -1,0 +1,17 @@
+
+Task 1 :-
+What is statistical test and what are most popular statistical test and when to use each test .
+Statistical test types and each type works with any type of data .
+( Same as Session 11 - Task 2 )
+
+
+Task 2 :-
+Data distribution types .
+Link : https://www.itl.nist.gov/div898/handbook/eda/section3/eda366.htm
+       https://en.wikipedia.org/wiki/List_of_probability_distributions
+       https://sixsigmastudyguide.com/data-distributions/
+
+
+Task 3 :-
+Confidence interval in sample distribution .
+
